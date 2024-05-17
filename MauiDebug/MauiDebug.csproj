@@ -62,4 +62,11 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
+	<ItemGroup Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">
+		<ProjectReference Include="..\MauiDebugNotificationServiceExtension\MauiDebugNotificationServiceExtension.csproj">
+			<IsAppExtension>true</IsAppExtension>
+			<IsWatchApp>false</IsWatchApp>
+		</ProjectReference>
+	</ItemGroup>
+
 </Project>
