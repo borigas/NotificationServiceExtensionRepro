@@ -1,7 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>net8.0-ios</TargetFrameworks>
     <OutputType>Library</OutputType>
+
+    <RuntimeIdentifier>ios-arm64</RuntimeIdentifier>
 
     <ApplicationId>com.companyname.mauidebug.NotificationServiceExtension</ApplicationId>
 
