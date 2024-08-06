@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>MauiDebugNotificationServiceExtension</string>
 	<key>CFBundleIdentifier</key>
-	<string>MauiDebugNotificationServiceExtension</string>
+	<string>com.companyname.mauidebug.NotificationServiceExtension</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleInfoDictionaryVersion</key>

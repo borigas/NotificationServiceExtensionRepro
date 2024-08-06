@@ -3,7 +3,7 @@
     <TargetFrameworks>net8.0-ios</TargetFrameworks>
     <OutputType>Library</OutputType>
 
-    <ApplicationId>MauiDebugNotificationServiceExtension</ApplicationId>
+    <ApplicationId>com.companyname.mauidebug.NotificationServiceExtension</ApplicationId>
 
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
     <ApplicationVersion>1</ApplicationVersion>
